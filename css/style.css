@@ -33,7 +33,8 @@ a:hover {
   background-size: cover;
 }
 .logo {
-  width: 100%;
+  width: 500px;
+  max-width: 100%;
   display: inline-block;
   margin-top: 150px;
   padding: 20px;
@@ -86,4 +87,41 @@ img.arrow {
   content: "";
   display: table;
   clear: both;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 80%;
+    max-width:1200px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    width: 500px;
+  }
+
+  .work-pic {
+    width: calc(33.3% - 10px);
+    padding-left: 10px;
+  }
+
+  .kontakti {
+    width: 100%;
+  }
+
+  .kontakti h2 {
+    color: black;
+    /* border-bottom: 5px solid #EEEEFF;
+    border-radius: 10px; */
+  }
+  .kontakti p {
+    text-align: left;
+  }
+  .icons {
+    display: inline-block;
+    width: 20px;
+    float: left;
+    margin-left: 10%;
+    margin-right: 20px;
+  }
 }
