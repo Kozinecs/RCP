@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poiret One', cursive;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #EEEEFF;
+  font-size: 1.4em;
+}
+
+h1 {
+  border-bottom: 5px solid #1F363D;
+  border-radius: 10px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #28587B;
+}
+
+a:hover {
+  color: #7F7CAF;
+}
+
+.main-header {
+  height: 650px;
+  background: linear-gradient(#7F7CAF, transparent 80%),
+              linear-gradient(0deg, #EEEEFF, transparent 40%),
+              url("../img/house3.jpg") no-repeat center;
+  background-size: cover;
+}
+.logo {
+  width: 100%;
+  display: inline-block;
+  margin-top: 150px;
+  padding: 20px;
+}
+img.arrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.main-text {
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.last-work {
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.last-work img {
+  padding-top: 20px;
+}
+
+.work-pic {
+  width: 100%;
+}
+.icons {
+  width: 20px;
+  float: left;
+  margin-left: 30px;
+}
+
+.kontakti {
+  color: #7F7CAF;
+  padding: 20px 10px;
+  background-color: #1F363D;
+}
+
+.kontakti a {
+  color: #7F7CAF;
+}
+
+.kontakti a:hover {
+  color: #28587B;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
